@@ -6,7 +6,7 @@ import logo from '../assets/Logo.png'
 
 
 //Je crée mon composant Banner
-function Banner () {
+function Banner ({children}) {
     let titre = "la maison jungle "
     return (
         /*L'attribut "className "  permet d'attribuer une une classe à mon élement 
@@ -14,8 +14,7 @@ function Banner () {
         En REACT, on utilse l'attribut "classeName" 
         */
     <div className="lmj-banner">
-        <img src={logo} alt="logo de la maison jungle" className='lmj-logo'/>
-        <h1>{titre.toUpperCase()}</h1>
+        {children}
     </div>
     )
     

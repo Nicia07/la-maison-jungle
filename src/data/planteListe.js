@@ -8,7 +8,7 @@ export const planteListe = [
         name: "monstera",
         category: "classique",
         id: "2ab",
-        whater: true,
+        water: false,
         light: true
     },
      //Mon objet 2 "ficus lyarata"
@@ -17,7 +17,7 @@ export const planteListe = [
         name:"ficus lyarata",
         category: "classique",
         id: "1eh",
-        whater: true,
+        water: true,
         light: true
 
      },
@@ -27,7 +27,7 @@ export const planteListe = [
         name:"fruit à pain",
         category: "tropical",
         id: "3tr",
-        whater: true,
+        water: false,
         light: true
      },
 
@@ -37,7 +37,7 @@ export const planteListe = [
         name:"cattaleya",
         category: "tropical",
         id: "2ms",
-        whater: true,
+        water: true,
         light: true
      },
 
@@ -46,7 +46,7 @@ export const planteListe = [
         name:"mawa",
         category: "tropical",
         id: "9mt",
-        whater: true,
+        water: true,
         light: true
      }
 ];

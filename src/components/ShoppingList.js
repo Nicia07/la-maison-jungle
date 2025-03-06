@@ -1,6 +1,7 @@
 // On a importer notre plante liste 
 import { planteListe } from "../data/planteListe";
 import "../styles/shoppingList.css";
+import CarScale from "./CareScale";
 //Le composant ShoppingList va regrouper ma list de courses
 
 function ShoppingList(){
@@ -42,7 +43,11 @@ function ShoppingList(){
             <ul className="lmj-plant-list">
                 
                 {planteListe.map((plante) => (
-                    <li key={plante.id} className="lmj-plant-item"> {plante.name} - {plante.category}</li>
+                    <li key={plante.id} className="lmj-plant-item"> {plante.name} - {plante.category}
+                    <CarScale lumiere={plante.light} typePlante='lumiere'/>
+                    <CarScale lumiere={plante.water} typePlante='Eau'/>
+
+                    </li>
                 ))
                 }
                 
