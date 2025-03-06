@@ -1,0 +1,26 @@
+/*Le style pour le composant <ShoppingList/>*/
+/* Style destiné a la liste des plates */
+
+.lmj-plant-list{
+    list-style-type:none;
+    padding: 32px;
+    display: flex;
+    background-color: yellowgreen;
+    flex-wrap: wrap;/*On ajoute une couverture*/
+    max-width: 800px;
+    
+}
+
+/*Style destiné aux item de la liste*/
+.lmj-plant-item{
+    border:solid 2px black;
+    border-radius:  10px;
+    height: 150px;
+    margin: 10px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: colum;
+    position: relative;
+    flex-direction: column;
+}
